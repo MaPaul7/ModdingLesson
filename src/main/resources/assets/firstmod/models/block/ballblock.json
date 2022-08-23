@@ -1,0 +1,13 @@
+{
+	"parent": "block/cube",
+	"textures": {
+		"down": "firstmod:block/ballbottom",
+		"up": "firstmod:block/balltop",
+		"north": "firstmod:block/ballside",
+		"east": "firstmod:block/ballblock",
+		"south": "firstmod:block/ballside",
+		"west": "firstmod:block/ballside",
+		"particles": "firstmod:block/ballblock"
+		
+	}
+}

@@ -1,0 +1,24 @@
+{
+	"dowsing_rod_found_ore": {
+		"subtitle": "sounds.firstmod.dowsing_rod_found_ore",
+		"sounds": [
+			"firstmod:dowsing_rod_found_ore"
+		]
+	},
+	"sv_opening_theme": {
+		"sounds": [
+			{
+				"name": "firstmod:sv_opening_theme",
+				"stream": true
+			}
+		]
+	},
+	"mines_cloth": {
+		"sounds": [
+			{
+				"name": "firstmod:mines_cloth",
+				"stream": true
+			}
+		]
+	}
+}

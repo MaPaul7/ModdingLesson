@@ -1,0 +1,10 @@
+{
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "minecraft:entities/sheep/red"
+    }
+  ],
+  "addition": "firstmod:pokeball",
+  "type": "firstmod:diamond_from_creeper"
+}

@@ -1,0 +1,10 @@
+{
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "minecraft:entities/sheep/black"
+    }
+  ],
+  "addition": "firstmod:ultraball",
+  "type": "firstmod:ultraball_from_blacksheep"
+}

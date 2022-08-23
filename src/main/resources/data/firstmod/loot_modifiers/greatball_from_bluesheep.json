@@ -1,0 +1,10 @@
+{
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "minecraft:entities/sheep/blue"
+    }
+  ],
+  "addition": "firstmod:greatball",
+  "type": "firstmod:greatball_from_bluesheep"
+}

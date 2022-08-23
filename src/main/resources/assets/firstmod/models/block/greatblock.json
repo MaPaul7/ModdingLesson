@@ -1,0 +1,13 @@
+{
+	"parent": "block/cube",
+	"textures": {
+		"down": "firstmod:block/ballbottom",
+		"up": "firstmod:block/greattop",
+		"north": "firstmod:block/greatside",
+		"east": "firstmod:block/greatblock",
+		"south": "firstmod:block/greatside",
+		"west": "firstmod:block/greatback",
+		"particles": "firstmod:block/greatblock"
+		
+	}
+}

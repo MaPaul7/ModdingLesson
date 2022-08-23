@@ -1,0 +1,9 @@
+{
+	"replace": false,
+	"values": [
+		"firstmod:example_block",
+		"firstmod:ballblock",
+		"firstmod:greatblock",
+		"firstmod:ultrablock"
+	]
+}

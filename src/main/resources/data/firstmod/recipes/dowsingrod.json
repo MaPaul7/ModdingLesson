@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " S ",
+    " C ",
+    "S S"
+  ],
+  "key": {
+     "S": {
+      "item": "minecraft:stick"
+    },
+    "C": {
+      "item": "minecraft:compass"
+    }
+  },
+  "result": {
+    "item": "firstmod:dowsingrod"
+  }
+}
