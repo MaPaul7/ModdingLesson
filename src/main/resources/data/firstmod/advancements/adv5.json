@@ -1,0 +1,21 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:diamond_ore"
+    },
+    "title": "Valuables Detected",
+    "description": "Find Diamonds buried below",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+   
+  },
+  "parent": "firstmod:adv2",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible",
+      "conditions": {
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "item": "firstmod:dowsingrod"
+    },
+    "title": "New Items?",
+    "description": "Craft a Dowsing Rod",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+   
+  },
+  "parent": "firstmod:adv1",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "firstmod:dowsingrod"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

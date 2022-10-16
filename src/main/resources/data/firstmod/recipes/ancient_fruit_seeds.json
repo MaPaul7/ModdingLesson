@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+	{
+	"item": "firstmod.ancient_fruit"	
+	}
+  ],
+  "result": {
+    "item": "firstmod.ancient_fruit_seeds",
+    "count": "9"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "firstmod:example_block"
+    },
+    "title": "New Block?",
+    "description": "Since when was this block in minecraft?",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "background": "firstmod:textures/block/example_block.png"
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "firstmod:torchic"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

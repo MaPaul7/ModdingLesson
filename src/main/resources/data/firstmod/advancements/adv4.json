@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:copper_ore"
+    },
+    "title": "Metal Detector",
+    "description": "Use the Dowsing Rod",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+   
+  },
+  "parent": "firstmod:adv2",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:item_used_on_block",
+       "conditions": {
+        "item": {
+          "items": [
+            "firstmod:dowsingrod"
+          ],
+          "tag": "minecraft:copper_ores"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "item": "firstmod:nether_dowsingrod"
+    },
+    "title": "Nether Ore",
+    "description": "Use a dowsing rod to find nether ores",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+   
+  },
+  "parent": "minecraft:nether/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "firstmod:nether_dowsingrod"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}
