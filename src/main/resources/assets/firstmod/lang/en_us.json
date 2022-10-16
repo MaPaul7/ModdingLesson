@@ -4,6 +4,8 @@
 	"item.firstmod.bulbasaur": "Bulbasaur",
 	"item.firstmod.shiny_bulbasaur": "Shiny Bulbasaur",
 	"item.firstmod.torchic": "Torchic",
+	"item.firstmod.mudkip": "Mudkip",
+	"item.firstmod.shiny_mudkip": "Shiny_Mudkip",
 	"item.firstmod.citrine": "Citrine",
 	"item.minecraft.apple": "Red Tree Fruit",
 	"block.minecraft.beacon": "Big Light Block",
@@ -46,5 +48,14 @@
 	"item.firstmod.sv_theme_disc": "Music Disc",
 	"item.firstmod.sv_theme_disc.desc": "Concerned Ape - Stardew Valley Overture",
 	"item.firstmod.mines_cloth_disc": "Music Disc",
-	"item.firstmod.mines_cloth_disc.desc": "Concerned Ape - Mines (Cloth)"
+	"item.firstmod.mines_cloth_disc.desc": "Concerned Ape - Mines (Cloth)",
+	"effect.firstmod.freeze": "Freeze",
+	"effect.firstmod.slip": "Slip",
+	"item.minecraft.potion.effect.freeze_potion": "Freeze Potion",
+	"item.minecraft.splash_potion.effect.freeze_potion": "Splash Freeze Potion",
+	"item.minecraft.potion_of_lingering.effect.freeze_potion": "Lingering Freeze Potion",
+	"entity.minecraft.villager.firstmod.m_changer": "Metal Converter"
+	
+	
+	
 }

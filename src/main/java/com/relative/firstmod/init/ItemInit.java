@@ -15,6 +15,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Item.Properties;
 import net.minecraft.world.item.ItemNameBlockItem;
 import net.minecraft.world.item.PickaxeItem;
+import net.minecraft.world.item.PotionItem;
 import net.minecraft.world.item.Rarity;
 import net.minecraft.world.item.RecordItem;
 import net.minecraft.world.item.ShovelItem;
@@ -47,6 +48,12 @@ public class ItemInit {
 			() -> new Item(new Item.Properties().tab(FirstMod.POKEMON).stacksTo(16)));
 	
 	public static final RegistryObject<Item> SHINY_BULBASAUR = register("shiny_bulbasaur",
+			() -> new Item(new Item.Properties().tab(FirstMod.SHINY_POKEMON).stacksTo(16)));
+	
+	public static final RegistryObject<Item> MUDKIP = register("mudkip",
+			() -> new Item(new Item.Properties().tab(FirstMod.POKEMON).stacksTo(16)));
+	
+	public static final RegistryObject<Item> SHINY_MUDKIP = register("shiny_mudkip",
 			() -> new Item(new Item.Properties().tab(FirstMod.SHINY_POKEMON).stacksTo(16)));
 	
 	public static final RegistryObject<Item> POKEBALL = register("pokeball",
@@ -116,7 +123,6 @@ public class ItemInit {
 	
    public static final RegistryObject<Item> GULLIBLE_SWORD = ITEMS.register("g_sword",
 		   () -> new SwordItem(TierInit.GULLIBLE, 2, 3f, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
-	
    
 	private static <T extends Item> RegistryObject<T> register(final String name, final Supplier<T> item) {
 		return ITEMS.register(name, item);
